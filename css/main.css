@@ -1,7 +1,14 @@
 /*global*/
+* {
+  outline: red 0px solid;
+}
+
+
 body {
 	background-color: black;
 }
+
+/*main section*/
 .main {
 	background-color: white;
 	margin-top: 110px;
@@ -35,14 +42,24 @@ body {
 }
 
 .ryu-throwing {
-	background-image:  url('../images/ryu-throwing-hadoken.png');
+	background-image:  url('../images/ryu-throwing-hadouken.png');
 }
 
 .hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
 	background-repeat: no-repeat;
 }
 
-
+.hadouken {
+	background-image: url('../images/hadouken.gif');
+	width: 156px;
+	height: 90px;
+	display: none;
+	position: absolute;
+	z-index: 10;
+	top: 170px;
+	left: 600px;
+	float: left;
+}
 
 
 
